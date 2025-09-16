@@ -1105,7 +1105,7 @@ function skinetic_customize_settings() {
             'type'     => 'color',
             'label'    => esc_html__( 'Text Color', 'skinetic' ),
             'section'  => 'color_scheme',
-            'default'  => '#1d1312',
+            'default'  => '#1a1b1e',
             'priority' => 10,
         ),
 
