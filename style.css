@@ -317,6 +317,9 @@ textarea {
   font: inherit; /* 2 */
 }
 
+.qodef-typeout-holder {
+  color: var(--primary-color);
+}
 /* Interactive
    ========================================================================== */
 /*
