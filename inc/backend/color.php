@@ -8,7 +8,7 @@ if(!function_exists('skinetic_color_scheme')){
 
 	  	// Get theme options with fallbacks
 		$primary_color      = skinetic_get_option('primary_color', '#b58c67');
-		$secondary_color    = skinetic_get_option('secondary_color', '#e9dfde');
+		$secondary_color    = skinetic_get_option('secondary_color', '#f8f4f0');
 		$text_color         = skinetic_get_option('text_color', '#1d1312');
 		$accent_color       = skinetic_get_option('accent_color', '#0E1730');
 		$bg_color           = skinetic_get_option('bg_color', '#f4efef');
