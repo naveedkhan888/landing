@@ -74,7 +74,6 @@ html {
 body {
   margin: 0;
   overflow: hidden;
-  background: var(--accent-color);
 }
 
 /* Grouping content
@@ -359,7 +358,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #FFFFFFCC;
+  color: var(--text-color);
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.875;
@@ -373,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 20px;
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 
@@ -1204,7 +1203,7 @@ a {
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
-  color: #ffffff;
+  color: var(--accent-color);
   text-decoration: none;
 }
 a:visited {
@@ -3693,7 +3692,7 @@ object {
   letter-spacing: 1.8px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: var(--accent-color);
   margin-bottom: 10px;
 }
 .xp-heading > span.is_highlight {
