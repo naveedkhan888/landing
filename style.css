@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 20px;
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 
@@ -3695,7 +3695,7 @@ object {
   letter-spacing: 1.8px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: var(--text-color);
   margin-bottom: 10px;
 }
 .xp-heading > span.is_highlight {
